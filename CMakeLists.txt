@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.15)
+project(http_sever)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_FLAGS -Wall)
+include_directories(boost/include)
+include_directories(zstr)
+
+add_executable(http_sever main.cpp Server.cpp Server.h HttpRequest.cpp HttpRequest.h HttpResponse.cpp HttpResponse.h utils.h urilite.h)
+target_link_libraries(${PROJECT_NAME} z)
+target_link_libraries(${PROJECT_NAME} pthread)
+target_link_libraries(${PROJECT_NAME} ncurses)
+target_link_libraries(${PROJECT_NAME} ${CMAKE_SOURCE_DIR}/boost/lib/libboost_filesystem.a)
+target_link_libraries(${PROJECT_NAME} ${CMAKE_SOURCE_DIR}/boost/lib/libboost_system.a)
+target_link_libraries(${PROJECT_NAME} ${CMAKE_SOURCE_DIR}/boost/lib/libboost_program_options.a)
+target_link_libraries(${PROJECT_NAME} ${CMAKE_SOURCE_DIR}/boost/lib/libboost_iostreams.a)

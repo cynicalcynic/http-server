@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -g   CMakeFiles/http_sever.dir/main.cpp.o CMakeFiles/http_sever.dir/Server.cpp.o CMakeFiles/http_sever.dir/HttpRequest.cpp.o CMakeFiles/http_sever.dir/HttpResponse.cpp.o  -o http_sever -lz -lpthread -lncurses ../boost/lib/libboost_filesystem.a ../boost/lib/libboost_system.a ../boost/lib/libboost_program_options.a ../boost/lib/libboost_iostreams.a 

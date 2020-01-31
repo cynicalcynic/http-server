@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="http_sever"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http_sever">
+				<Option output="/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/http_sever" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lisek/Dokumenty/polibuda/sk2/http-sever/boost/include"/>
+					<Add directory="/home/lisek/Dokumenty/polibuda/sk2/http-sever/zstr"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 http_sever"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="http_sever/fast">
+				<Option output="/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/http_sever" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/lisek/Dokumenty/polibuda/sk2/http-sever/boost/include"/>
+					<Add directory="/home/lisek/Dokumenty/polibuda/sk2/http-sever/zstr"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 http_sever/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/lisek/Dokumenty/polibuda/sk2/http-sever/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/lisek/Dokumenty/polibuda/sk2/http-sever/HttpRequest.cpp">
+			<Option target="http_sever"/>
+		</Unit>
+		<Unit filename="/home/lisek/Dokumenty/polibuda/sk2/http-sever/HttpRequest.h">
+			<Option target="http_sever"/>
+		</Unit>
+		<Unit filename="/home/lisek/Dokumenty/polibuda/sk2/http-sever/HttpResponse.cpp">
+			<Option target="http_sever"/>
+		</Unit>
+		<Unit filename="/home/lisek/Dokumenty/polibuda/sk2/http-sever/HttpResponse.h">
+			<Option target="http_sever"/>
+		</Unit>
+		<Unit filename="/home/lisek/Dokumenty/polibuda/sk2/http-sever/Server.cpp">
+			<Option target="http_sever"/>
+		</Unit>
+		<Unit filename="/home/lisek/Dokumenty/polibuda/sk2/http-sever/Server.h">
+			<Option target="http_sever"/>
+		</Unit>
+		<Unit filename="/home/lisek/Dokumenty/polibuda/sk2/http-sever/main.cpp">
+			<Option target="http_sever"/>
+		</Unit>
+		<Unit filename="/home/lisek/Dokumenty/polibuda/sk2/http-sever/urilite.h">
+			<Option target="http_sever"/>
+		</Unit>
+		<Unit filename="/home/lisek/Dokumenty/polibuda/sk2/http-sever/utils.h">
+			<Option target="http_sever"/>
+		</Unit>
+		<Unit filename="/home/lisek/Dokumenty/polibuda/sk2/http-sever/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
