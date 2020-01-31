@@ -1,5 +1,4 @@
 #include <iostream>
-#include <ncurses.h>
 #include <regex>
 #include <boost/program_options.hpp>
 #include <arpa/inet.h>
